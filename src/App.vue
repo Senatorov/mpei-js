@@ -20,7 +20,11 @@
     </ul>
    </div>
 
-   <div class="mt-16"><router-view /></div>
+   <div class="mt-16 min-h-screen"><router-view /></div>
+
+   <footer class="mt-16">
+    <a href="https://github.com/Senatorov/mpei-js" class="text-blue-500 underline">Link to the project's github</a> by Senatorov
+  </footer>
 </template>
 
 <script>
